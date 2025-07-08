@@ -1,4 +1,4 @@
-## Continual Pretraining and Instruction Finetuning Pipeline Using Mistral v0.3 (7B)
+### Continual Pretraining and Instruction Finetuning Pipeline Using Mistral v0.3 (7B)
 
 
 A complete end-to-end VS Code–friendly setup for:
