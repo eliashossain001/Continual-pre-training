@@ -1,4 +1,4 @@
-# Domain-Adaptive LLM Pipeline
+# Continual Pre-training Pipeline using Mistral_v0.3_(7B)
 
 A complete end-to-end VS Code–friendly setup for:
 
