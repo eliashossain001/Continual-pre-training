@@ -1,0 +1,25 @@
+# config/inst_ft.yaml
+# Hyperparameters for instruction finetuning
+model: "outputs/llama3-cpt"
+max_seq_length: 2048
+load_in_4bit: false
+lora_rank: 64
+adapter_targets:
+  - "q_proj"
+  - "k_proj"
+  - "v_proj"
+  - "o_proj"
+lora_alpha: 32
+lora_dropout: 0.0
+bias: "none"
+gradient_checkpointing: "unsloth"
+random_state: 3407
+learning_rate: 5e-5
+embedding_learning_rate: 1e-5
+max_steps: 120
+warmup_steps: 10
+per_device_train_batch_size: 2
+gradient_accumulation_steps: 8
+dataset_num_proc: 8
+output_dir: "outputs/llama3-inst"
+report_to: "none"

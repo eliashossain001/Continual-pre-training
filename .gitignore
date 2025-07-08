@@ -1,0 +1,53 @@
+# Byte-compiled / Python caches
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual envs
+.venv/
+venv/
+env/
+*.env
+.env.*
+
+# Jupyter
+.ipynb_checkpoints/
+
+# VS Code workspace files
+.vscode/
+
+# Data (raw & processed)
+data/
+
+# Model outputs / checkpoints
+outputs/
+
+# LoRA adapters & unsloth caches
+_unsloth_temporary_saved_buffers/
+unsloth_compiled_cache/
+adapter_model.safetensors
+
+# Hugging Face cache
+.cache/
+transformers_cache/
+huggingface_hub/
+
+# Large model bundles
+*.safetensors
+*.ckpt
+*.bin
+*.gguf
+
+# Logs & databases
+*.log
+*.sqlite3
+*.db
+
+# Credentials, tokens, keys
+*.key
+*.token
+credentials.json
+*.pem
+
+# Misc
+.DS_Store
