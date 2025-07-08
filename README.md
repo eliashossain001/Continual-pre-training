@@ -24,7 +24,7 @@ A complete end-to-end VS Code–friendly setup for:
 1. **Clone the repository**:
 
    ```bash
-   git clone https://github.com/your_user/your_repo.git cpt-pipeline
+   git clone https://github.com/eliashossain001/Continual-pre-training.git
    cd cpt-pipeline
    ```
 
